@@ -1,8 +1,16 @@
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-((p7!+(3xd=8j2wh-elv7!v$*a%b#s4z=1-k8-0&7(=tx&ak46'
+
+
+# ...
+
+# Set WEBSITE_HOSTNAME environment variable if it exists
+WEBSITE_HOSTNAME = os.environ.get('food-data-restful-api.azurewebsites.net')
+
 
 DEBUG = False
 
