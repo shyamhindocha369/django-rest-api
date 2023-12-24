@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-((p7!+(3xd=8j2wh-elv7!v$*a%b#s4z=1-k8-0&7(=tx&ak46'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['http://food-data-restful-api.azurewebsites.net/','localhost', '127.0.0.1']
 
