@@ -1,0 +1,14 @@
+{
+    "area_abbreviation_1": "Updating data",
+    "area_abbreviation_2": "UpdatedArea2",
+    "area_abbreviation_3": "UpdatedArea3",
+    "item_code": 1,
+    "element_code": 2,
+    "element": "Updated Test Element",
+    "unit": "g",
+    "latitude": 45.1234,
+    "longitude": -80.5678,
+    "Y1961": 12.5,
+    "Y1962": 17.2
+    
+}
